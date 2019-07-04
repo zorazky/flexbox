@@ -1,15 +1,11 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    height:100%;
-    align-items: center;
+    flex-wrap: wrap;
 }
 
-.logout {
-    align-self: flex-start;
+.container > div {
+    width: 300px;
 }
 
-.home {
-    align-self: flex-end;
-}
 

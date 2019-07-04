@@ -1,11 +1,17 @@
 .container {
     border: 5px solid #ffcc5c;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
-.container > div {
-    width: 300px;
+.home {
+    flex: 1 1 200px;
+}
+
+.logout {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
 }
 
 
